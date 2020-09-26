@@ -9,5 +9,6 @@ edition = "2018"
 [dependencies]
 reqwest = "0.10.8"
 serde_json = "1.0.57"
+serde = {version="1.0.116",features=["derive"]}
 tokio-test ="0.2.1"
 tokio = { version = "0.2.22", features = ["full"] }
